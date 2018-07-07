@@ -1,0 +1,362 @@
+Data Exported from: D:/git/RN2xx3/rn2xx3.brd
+with: C:/EAGLE 9.1.0/examples/ulps/examples/statistic-brd.ulp Version 1.3.9
+at: 7/7/2018 6:53 AM
+EAGLE Version 9.1.0 Copyright (c) 1988-2018 Autodesk, Inc.
+
+all Values in mm
+max. Board length (Layer 20)
+X = 38.08
+Y = 50.85
+Outline contour = 170.37
+
+used layers 2
+
+ 1 Top
+16 Bottom
+_________________________
+
+293   	 Wire(s) incl. Arc(s)
+2     	 Polygon(s)
+_________________________
+60    	 SMD(s) top
+16    	 SMD(s) bottom
+===================
+76    	 SMD(s) total
+
+28    	 PAD(s)
+_________________________
+9     	 Via
+0     	 Hole
+===================
+37    	 Drills total
+_________________________
+65	 tCream
+14	 bCream
+_________________________
+Routing Info: 
+28    	 Signal(s) 
+104   	 PAD/SMD total
+===================
+94    	 PAD/SMD on Signal
+_________________________
+Packages used area:
+~ 1053.91 mm² (0.105 dm²)
+_________________________
+
+
+============================
+
+============================
+20 Elements: 0 locked / 20 unlocked
+0 Testpoints (TP)
+
+----------------------------
+LAYER
+Nb.	Name	Used
+  1	Top	1
+  2	Route2	0
+  3	Route3	0
+  4	Route4	0
+  5	Route5	0
+  6	Route6	0
+  7	Route7	0
+  8	Route8	0
+  9	Route9	0
+ 10	Route10	0
+ 11	Route11	0
+ 12	Route12	0
+ 13	Route13	0
+ 14	Route14	0
+ 15	Route15	0
+ 16	Bottom	1
+ 17	Pads	1
+ 18	Vias	1
+ 19	Unrouted	0
+ 20	Dimension	1
+ 21	tPlace	1
+ 22	bPlace	1
+ 23	tOrigins	1
+ 24	bOrigins	1
+ 25	tNames	1
+ 26	bNames	1
+ 27	tValues	1
+ 28	bValues	1
+ 29	tStop	1
+ 30	bStop	1
+ 31	tCream	1
+ 32	bCream	1
+ 33	tFinish	0
+ 34	bFinish	0
+ 35	tGlue	0
+ 36	bGlue	0
+ 37	tTest	0
+ 38	bTest	0
+ 39	tKeepout	1
+ 40	bKeepout	1
+ 41	tRestrict	1
+ 42	bRestrict	0
+ 43	vRestrict	1
+ 44	Drills	1
+ 45	Holes	0
+ 46	Milling	0
+ 47	Measures	1
+ 48	Document	1
+ 49	Reference	0
+ 50	dxf	0
+ 51	tDocu	1
+ 52	bDocu	1
+ 53	tGND_GNDA	0
+ 54	bGND_GNDA	0
+ 56	wert	0
+ 57	tCAD	1
+ 58	bCAD	1
+ 59	tCarbon	0
+ 60	bCarbon	0
+100	Parts	0
+101	Patch_Top	0
+102	Vscore	0
+103	tMap	0
+104	Name	0
+105	tPlate	0
+106	bPlate	0
+107	Crop	0
+108	fp8	0
+109	fp9	0
+110	fp0	0
+111	LPC17xx	0
+112	tSilk	0
+113	IDFDebug	0
+114	FRNTMAAT1	0
+115	FRNTMAAT2	0
+116	Patch_BOT	0
+117	BACKMAAT1	0
+118	Rect_Pads	0
+119	KAP_TEKEN	0
+120	KAP_MAAT1	0
+121	_tsilk	0
+122	_bsilk	0
+123	tTestmark	0
+124	bTestmark	0
+125	_tNames	0
+126	_bNames	0
+127	_tValues	0
+128	_bValues	0
+129	Mask	0
+130	SMDSTROOK	0
+131	tAdjust	0
+132	bAdjust	0
+144	Drill_legend	0
+150	Notes	0
+151	HeatSink	0
+152	_bDocu	0
+153	FabDoc1	0
+154	FabDoc2	0
+155	FabDoc3	0
+199	Contour	0
+200	200bmp	0
+201	201bmp	0
+202	202bmp	0
+203	203bmp	0
+204	204bmp	0
+205	205bmp	0
+206	206bmp	0
+207	207bmp	0
+208	208bmp	0
+209	209bmp	0
+210	210bmp	0
+211	211bmp	0
+212	212bmp	0
+213	213bmp	0
+214	214bmp	0
+215	215bmp	0
+216	216bmp	0
+217	217bmp	0
+218	218bmp	0
+219	219bmp	0
+220	220bmp	0
+221	221bmp	0
+222	222bmp	0
+223	223bmp	0
+224	224bmp	0
+225	225bmp	0
+226	226bmp	0
+227	227bmp	0
+228	228bmp	0
+229	229bmp	0
+230	230bmp	0
+231	Eagle3D_PG1	0
+232	Eagle3D_PG2	0
+233	Eagle3D_PG3	0
+248	Housing	0
+249	Edge	0
+250	Descript	0
+251	SMDround	0
+254	cooling	0
+255	routoute	0
+
+----------------------------
+CLASS
+# 	Name	min. Width	Clearance	min. Drill	Used
+0	default	0.0000 	0.0000 	0.0000 	28  
+
+----------------------------
+WIDTH
+WIRE	Q.
+0.1524 	287 
+0.5080 	4   
+
+ARC	Q.
+0.1524 	2   
+ * Wire width are saved in 0.2 micron resolution.
+
+POLY. width	Q.
+0.1524 	2   
+
+POLY. Isol.	Q.
+0.0000 	2   
+
+Polygon
+Type	Name	Layer	Rank	Width
+Signal	GND	1	1	0.152
+Signal	GND	16	1	0.152
+ * Wire width are saved in 0.2 micron resolution.
+
+----------------------------
+CIRCLE (width)	Q.
+
+CIRCLE diam.	Q.
+
+----------------------------
+TEXT (w)	Q.
+
+TEXT (s)	Q.
+
+----------------------------
+SMD x	SMD y	Roundn.	Q.
+1.0000 	1.1000 	0%	10  
+0.4572 	0.7620 	0%	6   
+0.6000 	0.9000 	0%	4   
+1.7000 	0.9000 	0%	47  
+1.2192 	2.2352 	0%	3   
+3.6000 	2.2000 	0%	1   
+1.5240 	4.0640 	0%	4   
+1.0160 	2.0320 	0%	1   
+
+PAD tDiam	Q.
+5.3340 	4   
+1.6500 	24  
+
+PAD bDiam	Q.
+5.3340 	4   
+1.6500 	24  
+
+PAD tRestring	Q.
+1.2670 	4   
+0.2750 	24  
+
+PAD bRestring	Q.
+1.2670 	4   
+0.2750 	24  
+
+PAD iDiam	Q.
+3.8160 	4   
+1.6500 	24  
+
+PAD iRestring	Q.
+0.5080 	4   
+0.2750 	24  
+
+VIA Outer-Diam	Q.
+0.7564 	9   
+
+VIA Outer-Restring 	Q.
+0.2032 	9   
+
+VIA Inner-Diam.	Q.
+0.7564 	9   
+
+VIA Inner-Restring	Q.
+0.2032 	9   
+
+VIA drill	Q.
+0.3500 	9   
+
+VIA Stack	Q.
+01-16	9   
+01-16-PAD	28  
+
+PAD drill	Q.
+2.8000 	4   
+1.1000 	24  
+
+----------------------------
+HOLE drill	Q.
+
+RACK
+T01   0.4
+T02   1.1
+T03   2.8
+
+----------------------------
+LIBRARY	Q.
+mbed-HDK	8   
+holes	4   
+Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev16c	3   
+pixhawk2	3   
+SyncChannelCustom	1   
+adafruit	1   
+
+PACKAGE	Q.
+0603	5   
+0402	3   
+2,8-PAD	4   
+61301411121	1   
+61300811021	1   
+61300211121	1   
+0603-LED	2   
+RN2483/RN2903	1   
+SOT-223	1   
+SMA_EDGELAUNCH_UFL	1   
+
+VALUE	PAC	Q.	Top	Bot
+100nF	0603	2	0	2
+10uF	0603	1	0	1
+NC	0402	2	2	0
+MOUNT-PAD-ROUND2.8	2,8-PAD	4	4	0
+~/-empty-/~J1	61301411121	1	1	0
+~/-empty-/~J2	61300811021	1	1	0
+~/-empty-/~J3	61300211121	1	1	0
+~/-empty-/~LED1	0603-LED	1	1	0
+~/-empty-/~LED2	0603-LED	1	1	0
+0R	0402	1	1	0
+330	0603	2	0	2
+RN2903	RN2483/RN2903	1	1	0
+LD1117AS33	SOT-223	1	0	1
+~/-empty-/~X1	SMA_EDGELAUNCH_UFL	1	1	0
+
+----------------------------
+RECT x	RECT y	Q.
+0 RECT (copper)
+
+----------------------------
+RECT Layer	Q.
+
+----------------------------
+TEXT (s)	Q.
+0 TEXT size (copper)
+
+TEXT (w)	Q.
+0 TEXT wire width (copper)
+
+TEXT 	Q.
+1.0160 	2   
+1.2700 	14  
+0.6096 	8   
+1.7780 	5   
+4 TEXT size (place)
+4 TEXT wire width (place)
+
+CIRCLE diam.	Q.
+0 CIRCLE (copper)
+
+End report
